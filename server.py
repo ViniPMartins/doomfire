@@ -7,4 +7,4 @@ def index():
     return render_template("index.html")
 
 if "__main__" == __name__:
-    app.run(debug=True)
+    app.run(debug=False)
