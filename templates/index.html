@@ -2,7 +2,7 @@
 
 <head>
     <title>Doom Fire Effect</title>
-    <link rel="stylesheet" type="text/css" href="format.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/format.css') }}">
 </head>
 
 <body>
@@ -21,8 +21,7 @@
         </div>
     </center>
 
-    <script src="fire.js"></script>
-
+    <script src="{{ url_for('static', filename='script/fire.js') }}"></script>
 </body>
 
 </html>
